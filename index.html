@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>electroattacks | Software Developer & Smart Home Enthusiast</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --heading: #f0f6fc;
+      --accent: #58a6ff;
+      --accent-hover: #79c0ff;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      color: var(--heading);
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      color: var(--heading);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.3rem;
+      margin-top: 2rem;
+    }
+
+    h3 {
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .badge-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      list-style: none;
+      padding: 0;
+    }
+
+    .badge {
+      background: #21262d;
+      border: 1px solid var(--border);
+      color: var(--heading);
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      color: #8b949e;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Hi there, I'm electroattacks 👋</h1>
+      <p>Self-taught Software Developer & Certified Electrician with a passion for Clean Architecture and Smart Automation.</p>
+    </header>
+
+    <section>
+      <h2>📜 Developer Journey</h2>
+      
+      <div class="card">
+        <h3>🚀 Batch Scripts & Early Days</h3>
+        <p>Started in my youth with `.bat` scripts. Built a multi-terminal IP scanner (which Windows Defender flagged as a virus) and a Minecraft Server Manager with crash auto-restart.</p>
+      </div>
+
+      <div class="card">
+        <h3>🔄 VB.NET & WinForms</h3>
+        <p>Moved to VB.NET for a proper IDE. Rebuilt network tools (Traceroute, IP Scan, Connection Scoring) and added a GUI to my Minecraft Server Manager.</p>
+      </div>
+
+      <div class="card">
+        <h3>🎯 C# & WPF</h3>
+        <p>Translated all projects to C# to master the syntax. Transitioned to WPF and learned MVVM, SRP, Validation, Async, and Parallelism thanks to Tim Corey.</p>
+      </div>
+
+      <div class="card">
+        <h3>🏗️ Clean Architecture & CQRS</h3>
+        <p>Inspired by Nick Chapsas, adopted Clean Architecture, CQRS, Mediator, and Facets. Constant learning and refining best practices to elevate code quality.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>⚡ Hardware & Smart Home</h2>
+      <ul>
+        <li>⚡ <strong>Electrician (since 2021):</strong> Strong understanding of hardware, power, and low-level physical systems.</li>
+        <li>🏠 <strong>Home Assistant (since 2020):</strong> Built a custom Python integration for LaMetric SKY when official support was lacking.</li>
+        <li>🌐 <strong>Home Lab & Networking:</strong> Configured VLANs, isolated subnets, and routing purely to master networking concepts.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🛠️ Tech Stack</h2>
+      <ul class="badge-list">
+        <li class="badge">C#</li>
+        <li class="badge">.NET</li>
+        <li class="badge">WPF</li>
+        <li class="badge">Clean Architecture</li>
+        <li class="badge">CQRS</li>
+        <li class="badge">Home Assistant</li>
+        <li class="badge">Python</li>
+        <li class="badge">VLANs & Networking</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>📫 Get in touch on Discord: <strong>@electro_attacks</strong></p>
+    </footer>
+  </div>
+</body>
+</html>
